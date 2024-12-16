@@ -13,6 +13,7 @@ app.use(
     credentials: true,
   })
 );
+app.use(express.urlencoded({ extended: true }));
 
 //rutas
 const bookRoutes = require("./src/books/book.route");

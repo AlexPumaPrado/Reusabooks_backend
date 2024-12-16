@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const JWT_SECRET = process.env.JWT_SECRET_KEY;
 
-const verifyAdminToken = (req, res, next) => {
+/*const verifyAdminToken = (req, res, next) => {
   const token = req.headers["authorization"]?.split(" ")[1];
 
   console.log(token);
@@ -21,4 +21,4 @@ const verifyAdminToken = (req, res, next) => {
   });
 };
 
-module.exports = verifyAdminToken;
+module.exports = verifyAdminToken;*/
